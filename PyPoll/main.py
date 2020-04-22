@@ -61,7 +61,7 @@ print(f'--------------------------------'+'\n')
 
 
 #Exporting to .txt file
-output = open("output.txt", "w")
+output = open("PyPoll.txt", "w")
 line1 = "Election Results"
 line2 = "--------------------------"
 line3 = str(f"Total Votes: {str(totalcount)}")
